@@ -1,7 +1,7 @@
 <!--
  * @Author: zhangyanlong
  * @Date: 2021-01-20 00:05:04
- * @LastEditTime: 2021-01-20 00:05:18
+ * @LastEditTime: 2021-01-25 16:40:13
  * @LastEditors: zhangyanlong
  * @Description:
 -->
@@ -33,7 +33,7 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="scss" scoped>
 .container {
   width: 100%;
 }

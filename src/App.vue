@@ -1,7 +1,7 @@
 <!--
  * @Author: zhangyanlong
  * @Date: 2021-01-19 23:56:14
- * @LastEditTime: 2021-01-20 01:20:55
+ * @LastEditTime: 2021-01-25 16:40:29
  * @LastEditors: zhangyanlong
  * @Description:
 -->
@@ -11,7 +11,7 @@
   </div>
 </template>
 
-<style lang="less">
+<style lang="scss">
 * {
   margin: 0;
   padding: 0;

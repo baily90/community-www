@@ -1,3 +1,10 @@
+/*
+ * @Author: zhangyanlong
+ * @Date: 2021-01-21 10:30:56
+ * @LastEditTime: 2021-01-25 16:43:04
+ * @LastEditors: zhangyanlong
+ * @Description:
+ */
 module.exports = {
   plugins: {
     autoprefixer: {
@@ -11,7 +18,7 @@ module.exports = {
     },
     'postcss-px-to-viewport': {
       unitToConvert: 'px', // 默认值`px`，需要转换的单位
-      viewportWidth: 750, // 视窗的宽度,对应设计稿宽度
+      viewportWidth: 414, // 视窗的宽度,对应设计稿宽度
       unitPrecision: 5, // 指定`px`转换为视窗单位值的小数位数
       propList: ['*'], // 转化为vw的属性列表
       viewportUnit: 'vw', // 指定需要转换成视窗单位

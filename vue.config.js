@@ -1,20 +1,15 @@
 /*
  * @Author: zhangyanlong
  * @Date: 2021-01-19 23:57:08
- * @LastEditTime: 2021-01-19 23:57:37
+ * @LastEditTime: 2021-01-28 15:22:54
  * @LastEditors: zhangyanlong
  * @Description:
  */
 const CompressionWebpackPlugin = require('compression-webpack-plugin')
 
 module.exports = {
+  outputDir: 'build',
   publicPath: '/',
-  chainWebpack: config => {
-    // 移除 prefetch 插件
-    config.plugins.delete('prefetch')
-    // 移除 prefetch 插件
-    config.plugins.delete('preload')
-  },
   configureWebpack: {
     externals: {
       vue: 'Vue',
